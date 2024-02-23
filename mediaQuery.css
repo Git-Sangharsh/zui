@@ -118,6 +118,30 @@
     padding: 2px 8px;
     font-size: 10px;
   }
+
+  .signup-wrapper {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1000;
+  }
+
+  .signup-inner-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    width: 100px;
+  }
+
+  .two-input > input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .signup-right-bottom {
+    font-size: 8px;
+  }
 }
 
 /* !425 */
@@ -262,6 +286,38 @@
     padding: 2px 8px;
     font-size: 10px;
   }
+
+  .signup-wrapper {
+    bottom: 0;
+  }
+  .signup-right {
+    display: none;
+  }
+
+  .signup-inner-wrapper {
+    width: max-content;
+  }
+
+  .signin-single-input {
+    width: 300px;
+    box-sizing: border-box;
+  }
+
+  .signin-header {
+    width: 90%;
+    margin: 10px 0px;
+  }
+  .signup-inner-header {
+    font-size: 8px;
+    width: max-content;
+  }
+
+  .signup-header-clr > h3 {
+    font-size: 8px;
+  }
+  .blue {
+    width: max-content;
+  }
 }
 
 @media (max-width: 375px) {
@@ -277,6 +333,43 @@
     padding-left: 30px;
     padding-top: 250px;
     padding-bottom: 0;
+  }
+
+  .signup-warpper {
+    border: 3px solid red;
+    width: 100px;
+  }
+
+  .signup-inner-wrapper {
+    box-sizing: border-box;
+  }
+
+  .signin-single-input {
+    width: 250px;
+    box-sizing: border-box;
+  }
+
+  .create-account {
+    padding: 10px 2px;
+    margin: 10px 0px;
+    width: 80%;
+  }
+
+  .singup-facebook {
+    border: 1px solid #d2d2d2;
+    box-sizing: border-box;
+    width: 80%;
+  }
+  .green {
+    font-size: 8px;
+  }
+
+  .two-input {
+    margin-top: 5px;
+  }
+  .two-input > input {
+    width: 150px !important;
+    box-sizing: border-box;
   }
 }
 
@@ -297,6 +390,19 @@
   .content2,
   .profile-right-inner {
     display: none;
+  }
+
+  .signup-header-clr > h3 {
+    font-size: 6px;
+  }
+
+  .two-input > input {
+    width: 120px !important;
+    box-sizing: border-box;
+  }
+
+  .common{
+    font-size: 10px;
   }
 }
 
@@ -357,5 +463,4 @@
     font-size: 8px;
     box-sizing: border-box;
   }
-
 }
