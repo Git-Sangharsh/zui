@@ -1,0 +1,629 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  background-color: #f8f9fa;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.inner-nav-icon {
+  width: 30px;
+}
+
+.inner-nav-input-div {
+  border-radius: 30px;
+  padding: 8px 12px;
+  background-color: #f2f2f2;
+}
+
+.inner-nav-input-div-icon {
+  margin: 0px 3px;
+  color: #7a7a7a;
+}
+.inner-nav-input {
+  border: none;
+  width: 300px;
+  outline: none;
+  background-color: transparent;
+}
+
+.inner-nav-last-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.inner-nav-last-header-main {
+  font-size: 16px;
+}
+
+.inner-nav-last-header-color {
+  font-size: 16px;
+  color: #2f6cef;
+  margin: 0px 3px;
+}
+
+.inner-nav-last-header-icon {
+  margin: 0px 3px;
+}
+
+.content1 {
+  width: 100%;
+  height: max-width;
+  background-image: url("/assets/herobg2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.content1-header {
+  padding-left: 130px;
+  padding-top: 600px;
+  padding-bottom: 100px;
+}
+.content1-header-bold {
+  color: white;
+}
+
+.content1-header-num {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content2-wrapper {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content2-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, black 7.5%, #a7a7a7 2%);
+  border-image-slice: 1;
+}
+
+.content2-nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.content2-nav-left-header,
+.content2-nav-left-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #a7a7a7;
+}
+
+.content2-nav-left-bold {
+  color: black;
+}
+
+.content2-nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.content2-nav-inner-right1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #edeff0;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.content2-nav-right1-header {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.content2-nav-inner-right2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #2f6ce5;
+  padding: 8px;
+}
+
+.content2-nav-right2-header {
+  color: whitesmoke;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.content2-nav-inner-right2-icon {
+  color: whitesmoke;
+}
+
+.content3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content3-wrapper {
+  display: flex;
+  gap: 20px;
+  width: 75%;
+}
+
+.content3-left {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.content3-left-box1 {
+  border: 1px solid #a7a7a744;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin: 20px 0px;
+}
+
+.conetn3-left-img1 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.align-emoji {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.align-emoji-header {
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 0px 8px;
+  font-weight: 600;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.843);
+}
+
+.content3-left-box1-row {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+.content3-left-box1-row-header {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.873);
+}
+
+.content3-left-box1-row-icon {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.873);
+  cursor: pointer;
+}
+
+.conetnt3-right {
+  flex: 1;
+}
+
+.content3-left-box1-i {
+  padding: 0px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.profile {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-img {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.profile-left-header {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.share-img {
+  width: 15px;
+  padding: 5px;
+  background-color: #c1c1c1;
+}
+.profile-right {
+  display: flex;
+  gap: 30px;
+}
+
+.profile-right-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.profile-right-inner-icon {
+  color: #525252;
+}
+
+.profile-right-inner-header {
+  font-size: 16px;
+  font-weight: 700;
+  color: #525252;
+}
+
+.meetup {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 80px;
+}
+
+.meetup-left,
+.meetup-right {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: rgb(50, 50, 50);
+}
+
+.meetup-left-header,
+.meetup-right-header {
+  font-size: 14px;
+}
+
+.visit-website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.visit-website-header {
+  color: #e56135;
+  font-size: 14px;
+  padding: 8px;
+  text-align: center;
+  width: 95%;
+  border: 1px solid #a7a7a7;
+  border-radius: 9px;
+}
+
+.content3-right {
+  margin-top: 20px;
+  width: 20%;
+}
+.content3-parent-location {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.537);
+}
+
+.content3-left-location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.content3-left-location-header {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.754);
+}
+
+.content3-left-location-icon {
+  color: rgba(0, 0, 0, 0.754);
+}
+
+.content3-right-inside {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #525252;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.content3-left-box1-row {
+  position: relative;
+}
+
+.content3-left-box1-row-dropdown {
+  display: none;
+  position: absolute;
+  left: 85%;
+  top: 70%;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.content3-left-box1-row-dropdown-item {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+.content3-left-box1-row-dropdown-item:hover {
+  background-color: #ddd;
+}
+
+.content3-left-box1-row:hover .content3-left-box1-row-dropdown {
+  display: block;
+}
+
+.groups-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  color: rgba(0, 0, 0, 0.852);
+}
+.groups-header > h5 {
+  color: rgba(0, 0, 0, 0.852);
+}
+
+.groups-suggestion,
+.groups-suggestion-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: rgba(0, 0, 0, 0.852);
+  margin: 5px 0px;
+}
+
+.follow {
+  padding: 2px 8px;
+  background-color: #edeef0;
+  width: max-content;
+  border-radius: 9px;
+  color: rgba(0, 0, 0, 0.852);
+}
+
+.signup,
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.signup-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #d2d2d2;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.green {
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #effff4;
+  padding: 8px;
+  text-align: center;
+  color: #008a54;
+}
+.signup-header,
+.signin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 90%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.signup-header-clr {
+  display: flex;
+  gap: 5px;
+}
+
+.signup-header-clr > h3 {
+  font-weight: 400;
+  color: #555555;
+  font-size: 12px;
+}
+
+.blue {
+  color: #2f6ce5 !important;
+  font-weight: 600 !important;
+  font-size: 12px;
+}
+
+.signup-inner-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  width: 750px;
+  padding: 00px 20px 20px 20px;
+}
+
+.signup-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.two-input,
+.singup-facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.three-input {
+  box-sizing: border-box;
+  width: 100%;
+}
+.three-input > input {
+  width: 100%;
+}
+input {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #d2d2d2;
+}
+
+.signin-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signin-single-input {
+  width: 100%;
+  outline: none;
+}
+.signup-eye {
+  border: 1px solid #d2d2d2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.eye {
+  border: 1px solid #d2d2d2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.eye-input {
+  border: none;
+  outline: none;
+}
+
+.eye-icon {
+  color: #555555;
+  margin-right: 5px;
+}
+.create-account {
+  padding: 10px;
+  background-color: #2f6ce5;
+  color: whitesmoke;
+  text-align: center;
+  margin: 20px 0px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.singup-facebook {
+  border: 1px solid #d2d2d2;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 4px 0px;
+}
+
+.common {
+  margin: 5px;
+  font-size: 14px;
+  color: #555555;
+  text-align: center;
+}
+
+.facebook-icon {
+  margin: 5px;
+  font-size: 12px;
+  color: #2f6ce5;
+}
+
+.signup-right-bottom {
+  margin: 10px 0px;
+  font-size: 10px;
+  color: #555555;
+  text-align: center;
+}

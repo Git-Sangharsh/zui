@@ -1,0 +1,361 @@
+@media (max-width: 768px) {
+  .inner-nav-icon {
+    width: 20px;
+  }
+
+  .inner-nav-input-div {
+    padding: 2px 8px;
+  }
+
+  .inner-nav-input {
+    width: 200px;
+  }
+
+  .inner-nav-last-header-main,
+  .inner-nav-last-header-color,
+  .inner-nav-last-header-icon {
+    font-size: 12px;
+  }
+
+  .content1 {
+    height: 80vh;
+  }
+  .content1-header {
+    padding-left: 30px;
+    padding-top: 320px;
+    padding-bottom: 0;
+  }
+
+  .content1-header-bold,
+  .content1-header-num {
+    font-size: 22px;
+  }
+
+  .content2-nav-left-header,
+  .content2-nav-left-bold,
+  .align-emoji-header {
+    font-size: 12px;
+  }
+
+  .content2-nav-left-bold {
+    color: black;
+  }
+
+  .content2-nav-right1-header,
+  .content2-nav-right2-header,
+  .content2-nav-inner-right2-icon,
+  .content3-left-box1-i,
+  .meetup-left-header,
+  .meetup-right-header {
+    font-size: 12px;
+  }
+
+  .content2-nav {
+    height: 60px;
+  }
+
+  .conetn3-left-img1 {
+    height: 200px;
+  }
+
+  .content3-left-box1-row-header,
+  .content3-left-box1-row-icon,
+  .profile-right-inner-icon {
+    font-size: 14px;
+  }
+
+  .profile-left-header,
+  .profile-right-inner-header {
+    font-size: 10px;
+  }
+  .profile-right {
+    gap: 5px;
+  }
+
+  .profile-img {
+    width: 25px;
+  }
+
+  .share-img {
+    width: 8px;
+  }
+
+  .visit-website-header {
+    font-size: 12px;
+    padding: 4px;
+    width: 90%;
+  }
+
+  .content3-left-location-header,
+  .content3-left-location-icon {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.754);
+  }
+
+  .content3-right-inside {
+    margin-top: 5px;
+    font-size: 8px;
+  }
+
+  .groups-header {
+    padding: 5px;
+    gap: 5px;
+    color: rgba(0, 0, 0, 0.852);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .groups-header > h5,
+  .thumb-icon {
+    font-size: 6px;
+  }
+
+  .groups-suggestion-left {
+    font-size: 10px;
+  }
+
+  .follow {
+    padding: 2px 8px;
+    font-size: 10px;
+  }
+}
+
+/* !425 */
+@media (max-width: 425px) {
+  .nav {
+    display: none;
+  }
+  .inner-nav-icon {
+    width: 14px;
+  }
+
+  .inner-nav-input-div {
+    padding: 2px 4px;
+  }
+
+  .inner-nav-input {
+    width: 200px;
+  }
+
+  .inner-nav-input-div-icon {
+    margin: 0px 3px;
+    color: #7a7a7a;
+  }
+
+  .inner-nav-last-header-main,
+  .inner-nav-last-header-color,
+  .inner-nav-last-header-icon {
+    font-size: 10px;
+  }
+
+  .content3-right {
+    display: none;
+  }
+  .content3-left {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .content1 {
+    height: 80vh;
+  }
+  .content1-header {
+    padding-left: 20px;
+    padding-top: 310px;
+    padding-bottom: 0;
+  }
+
+  .content1-header-bold,
+  .content1-header-num {
+    font-size: 18px;
+  }
+
+  .content2-nav-left-header,
+  .content2-nav-left-bold,
+  .align-emoji-header {
+    font-size: 8px;
+  }
+
+  .content2-nav-left-bold {
+    color: black;
+  }
+
+  .content2-nav-right1-header,
+  .content2-nav-right2-header,
+  .content2-nav-inner-right2-icon,
+  .content3-left-box1-i,
+  .meetup-left-header,
+  .meetup-right-header {
+    font-size: 6px;
+  }
+
+  .content2-nav-inner-right2,
+  .content2-nav-inner-right1 {
+    gap: 5px;
+    padding: 4px;
+  }
+
+  .content2-nav {
+    height: 40px;
+  }
+
+  .conetn3-left-img1 {
+    height: 140px;
+  }
+
+  .content3-left-box1-row-header,
+  .content3-left-box1-row-icon,
+  .profile-right-inner-icon {
+    font-size: 14px;
+  }
+
+  .profile-left-header,
+  .profile-right-inner-header {
+    font-size: 10px;
+  }
+  .profile-right {
+    gap: 5px;
+  }
+
+  .profile-img {
+    width: 20px;
+  }
+
+  .share-img {
+    width: 8px;
+  }
+
+  .visit-website-header {
+    font-size: 12px;
+    padding: 4px;
+    width: 90%;
+  }
+
+  .content3-left-location-header,
+  .content3-left-location-icon {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.754);
+  }
+
+  .content3-right-inside {
+    margin-top: 5px;
+    font-size: 8px;
+  }
+
+  .groups-header {
+    padding: 5px;
+    gap: 5px;
+    color: rgba(0, 0, 0, 0.852);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .groups-header > h5,
+  .thumb-icon {
+    font-size: 6px;
+  }
+
+  .groups-suggestion-left {
+    font-size: 10px;
+  }
+
+  .follow {
+    padding: 2px 8px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .content1 {
+    height: 60vh;
+  }
+  .content1-header-bold,
+  .content1-header-num {
+    font-size: 14px;
+  }
+
+  .content1-header {
+    padding-left: 30px;
+    padding-top: 250px;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .content1 {
+    height: 60vh;
+  }
+  .content1-header-bold,
+  .content1-header-num {
+    font-size: 14px;
+  }
+
+  .content1-header {
+    padding-left: 30px;
+    padding-top: 250px;
+    padding-bottom: 0;
+  }
+  .content2,
+  .profile-right-inner {
+    display: none;
+  }
+}
+
+@media (max-width: 280px) {
+  .content1 {
+    height: 40vh;
+  }
+  .content1-header-bold,
+  .content1-header-num {
+    font-size: 12px;
+  }
+
+  .content1-header {
+    padding-left: 20px;
+    padding-top: 160px;
+    padding-bottom: 0;
+  }
+
+  .content3-left-box1-row-header {
+    font-size: 8px;
+  }
+
+  .meetup-left-header {
+    width: max-content;
+  }
+
+  .meetup {
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 5px 10px;
+  }
+
+  .meetup-left,
+  .meetup-right {
+    gap: 4px;
+    box-sizing: border-box;
+  }
+
+  .align-emoji,
+  .content3-left-box1-row,
+  .content3-left-box1-i,
+  .profile {
+    padding: 0px 5px;
+  }
+
+  .profile {
+    padding: 10px 5px;
+  }
+  .content3-left-box1-row-dropdown {
+    left: 49px;
+    top: 20px;
+    box-sizing: border-box;
+  }
+
+  .content3-left-box1-row-dropdown-item {
+    padding: 4px 4px;
+    font-size: 8px;
+    box-sizing: border-box;
+  }
+
+}
